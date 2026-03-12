@@ -6,10 +6,14 @@ namespace FullstackDemo
     {
         static void Main(string[] args)
         {
-            Features f = new Features();
-            f.Run();
+            //Features f = new Features();
+            //f.Run();
 
-            Console.ReadLine();
+            //ReverseString reverseString = new ReverseString();
+            //reverseString.Reverse();
+
+            StarPattern sp = new StarPattern();
+            sp.Run();
         }
     }
 }
